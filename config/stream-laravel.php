@@ -9,9 +9,13 @@ return [
     |
     */
 
-    'api_key' => '',
-    'api_secret' => '',
-    'api_app_id' => '',
+   // 'api_key' => '',
+   // 'api_secret' => '',
+  //  'api_app_id' => '',
+    'api_key' => env('STREAM_KEY'),
+    'api_secret' => env('STREAM_SECRET'),
+    'api_app_id' => env('STREAM_APP_ID'),
+    'location' => 'us-east',
     /*
     |-----------------------------------------------------------------------------
     | Client connection options
